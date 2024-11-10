@@ -220,12 +220,13 @@ body {
     text-decoration: none;
     margin-right: 15px;
     font-weight: bold;
-    transition: color 0.3s, transform 0.2s; 
+    transition: color 0.3s ease, transform 0.2s ease; 
+    display: inline-block;
 }
 
 .experience-links a:hover {
     color: #5c5343;
-    transform: scale(1.1); 
+    transform: scale(1.1);
 }
 
 /* Footer (Contact) */
